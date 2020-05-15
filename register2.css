@@ -1,0 +1,97 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+    background-image: url(register2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: quicksand;
+}
+
+.container{
+    position: absolute;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.form{
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+
+input{
+    padding: 15px 10px;
+    margin: 15px 30px;
+    font-size: 20px;
+    border: #fff;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    background: linear-gradient(-45deg,#19E2E8,#F713F7);
+    width: 50%;
+    border: #fff;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    outline: none;
+    padding: 10px 40px;
+    color: white;
+}
+button:hover{
+    cursor:pointer;
+    background: #566573;
+    transition: 0.2s ease;
+}
+
+.logo img{
+    float: left;
+    height: 90px;
+    border-radius: 300%;
+    margin: 30px 30px;
+}
+
+.links{
+    display: flex;
+    padding: 50px;
+    float: right;
+}
+
+.links li{
+    list-style: none;
+}
+
+.links li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    float: right;
+    align-content: right;
+}
+
+.links li a:hover{
+    color: #e67e22;
+    border-bottom:2px solid #e67e22;
+    transition:all 0.5s  ease-in;
+}
+
+a{
+    text-decoration: none;
+    color: #566573;
+}
+
+a:hover{
+    text-decoration: underline;
+}

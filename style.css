@@ -1,0 +1,154 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: kite one;
+}
+.hero{
+	position: absolute;
+	width:1280px;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('khana.jpg');
+	height:100vh;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	
+}
+
+h1{
+	color: white;
+}
+.main-nav{
+	list-style:none;
+	float:right;
+	margin-top:55px;
+	margin-right:20px;
+	
+}
+.main-nav li
+{
+	display:inline-block;
+	margin-left:25px;
+}
+.main-nav li a
+{
+	color:white;
+	text-decoration:none;
+	font-size:90%;
+	font-weight:bold;
+	
+}
+.main-nav li a:hover
+{
+	color:#e67e22;
+	border-bottom:2px solid #e67e22;
+	transition:all 0.5s  ease-in;
+	padding:5px 0;
+}
+.logo img{
+	height:90px;
+	float:left;
+	margin-top:30px;
+	border-radius:300%;
+	margin-left:30px;
+	
+	
+	
+}
+.btn{
+	border:1px solid #e67e23;
+	padding: 10px 30px;
+	color:#e67e22;
+	text-decoration:none;
+	border-radius: 20px;
+	margin-right:17px;
+}
+.button-awesome{
+	margin-top:50px;
+	border-radius:20px;
+}
+
+.btn-half:hover
+{
+	background-color:#e67e22;
+	color:white;
+}
+.btn-full:hover
+{
+	background-color:e67e22;
+	color:white;
+	transition:all 0.5s ease-in;
+}
+.h3{
+	
+	margin:0;
+	padding:0;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+
+.mobile p{
+	text-decoration:underline;
+	color: blue;
+	
+}
+
+.Meal-showcase{
+	list-style:frame;
+	width:100%;
+	border-radius:40px;
+	
+	
+	
+}
+.Meal-showcase li{
+	display:block;
+	width:25%;
+	float:left;
+	border-radius:400;
+	
+	
+}
+.Meal-photo{
+	width:100%;
+	margin:0;
+	overflow:hidden;
+}
+.Meal-photo img{
+	width:100%;
+	height:auto;
+	transform:scale(1.15);
+	transition:transform 0.5s;
+}
+.Meal-photo img:hover{
+	transform:scale(1.05);
+}
+.Meal{
+	margin-top:60px;
+}	
+
+.meal-photo poha{
+	float:left;
+	
+
+}
+.row1{
+	padding: 30px;
+	align-content: center;
+}
+
+.row1 div{
+	height: 50vh;
+	width: 100%;
+	
+}
